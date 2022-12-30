@@ -36,7 +36,7 @@ if ( ! function_exists('rozard_script_master') ) {
         $admjsx = get_cores()->assets['script']['admin']['link'];
       
         // preparation
-        rozard_cores_optime( $hook_suffix );
+        // rozard_cores_optime( $hook_suffix );
         rozard_cores_assets( $vendor, $admcss, $admjsx );
 
 
@@ -109,6 +109,7 @@ if ( ! function_exists('rozard_script_master') ) {
             'core-bricket-tabs'      => 'bricket-tabs.css',
             'core-rebase-noticer'    => 'rebase-noticer.css',
             'core-widget-taxopost'   => 'widget-taxopost.css',
+            'core-forms-general'     => 'form-general.css',
             'core-main'              => 'extend-main.css',
         );
         foreach( $rozard_css as $handle => $path ) {
