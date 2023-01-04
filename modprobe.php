@@ -64,7 +64,7 @@ if ( ! function_exists ( 'rozard_header_hookers' )) {
             echo '</div>';
         echo '</footer>';
     }
-    add_filter( 'admin_footer_text', 'rozard_footer_hookers' );
+    add_filter( 'admin_footer_text', 'rozard_footer_hookers' , 11 );
 
 
 
